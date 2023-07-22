@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+    <div id="title">
+      <p>タイトル</p>
+      <input id="input-title" type="text" placeholder="作品タイトル" value="" required>
+      <button id="delete-file">削除</button>
+    </div>
+    <div id="cover">
+      <p>表紙</p>
+      <input id="input-cover" type="file">
+      <div id="cover-images"></div>
+    </div>
+    <div id="sample">
+      <p>サンプル</p>
+      <input id="input-sample" type="file" multiple>
+      <button id="reset">リセット</button>
+      <div id="sample-images"></div>
+    </div>
+    <div id="update">
+      <p>更新</p>
+      <button id="generate">ページ生成</button>
+    </div>
+    <script type="module" src="./script.js"></script>
+  </body>
+</html>
